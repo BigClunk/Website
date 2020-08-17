@@ -1,0 +1,89 @@
+.topnav {
+  overflow: hidden;
+  background-color: skyblue;
+  width:100%;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+ 
+  
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: red;
+}
+
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+.conent{
+   position: relative;
+  min-height: 100vh;
+}
+.content-inside{
+    padding-bottom: 2.5rem;
+}
+.footer{
+   height: 50px;
+  margin-top: -50px;
+  background:skyblue;
+}
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{height: 900px;}
+
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	margin-bottom: 30px;
+	background:url(../pictures/Books-Lined-up.jpg.);
+	
+}
+#photo{
+    text-align: center;
+    display:block;
+}
+
+#signIN {
+   background:#FF7F50;
+   color:white;
+}
+
+#logo{
+    height:152px;
+    width:225px;
+}
+
+input{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.2px;
+    font-size: 16px;
+}
+h2{
+    text-align: center;
+}
+#locate{
+    text-align: center;
+}
+#addBook{
+    width:500px;
+    margin:0 auto;
+}
+.content {
+  min-height: 100%;
+}
+.content-inside {
+  padding: 20px;
+  padding-bottom: 50px;
+}
